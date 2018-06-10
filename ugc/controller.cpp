@@ -4,3 +4,8 @@ Controller::Controller()
 {
 
 }
+
+void Controller::setDBReference(DBHandler* db)
+{
+    this->db = db;
+}

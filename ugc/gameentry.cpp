@@ -1,6 +1,6 @@
 #include "gameentry.h"
 
-GameEntry::GameEntry()
+GameEntry::GameEntry(QString title)
 {
-
+    this->title = title;
 }

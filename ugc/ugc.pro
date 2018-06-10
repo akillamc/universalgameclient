@@ -17,7 +17,8 @@ SOURCES += \
         main.cpp \
     controller.cpp \
     dbhandler.cpp \
-    gameentry.cpp
+    gameentry.cpp \
+    utility.cpp
 
 RESOURCES += qml.qrc
 
@@ -35,4 +36,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     controller.h \
     dbhandler.h \
-    gameentry.h
+    gameentry.h \
+    utility.h
