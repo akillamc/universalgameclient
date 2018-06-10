@@ -3,5 +3,7 @@
         <file>main.qml</file>
         <file>TopMenu.qml</file>
         <file>SideBar.qml</file>
+        <file>OverviewPage.qml</file>
+        <file>DetailsPage.qml</file>
     </qresource>
 </RCC>

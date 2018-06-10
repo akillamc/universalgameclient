@@ -12,11 +12,20 @@ Window {
 
     TopMenu {
         id: topMenu
-        z: 1
+        z: 2
     }
 
     SideBar {
         id: sideBar
+    }
+
+    OverviewPage {
+        id: overviewPage
+    }
+
+    DetailsPage {
+        id: detailsPage
+        z: 1
     }
 }
 
