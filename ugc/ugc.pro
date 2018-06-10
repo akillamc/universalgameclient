@@ -1,4 +1,4 @@
-QT += quick
+QT += quick sql
 CONFIG += c++11 \
           qml_deubg
 
@@ -15,7 +15,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-    controller.cpp
+    controller.cpp \
+    dbhandler.cpp \
+    gameentry.cpp
 
 RESOURCES += qml.qrc
 
@@ -31,4 +33,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    controller.h
+    controller.h \
+    dbhandler.h \
+    gameentry.h
