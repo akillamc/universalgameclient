@@ -5,5 +5,7 @@
         <file>SideBar.qml</file>
         <file>OverviewPage.qml</file>
         <file>DetailsPage.qml</file>
+        <file>LauncherCat.qml</file>
+        <file>Images/defaultLauncher.png</file>
     </qresource>
 </RCC>
